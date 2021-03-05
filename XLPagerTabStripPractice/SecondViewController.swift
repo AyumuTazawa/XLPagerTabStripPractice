@@ -7,6 +7,7 @@
 
 import UIKit
 import XLPagerTabStrip
+import AnimatedGradientView
 
 class SecondViewController: UIViewController, IndicatorInfoProvider {
     
@@ -16,7 +17,11 @@ class SecondViewController: UIViewController, IndicatorInfoProvider {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        let gradient = AnimatedGradientView(frame: view.bounds)
+        gradient.autoAnimate = false
+        gradient.colorStrings = [["#3224AE", "#FF66FF"]]
+        gradient.type = .conic
+        view.addSubview(gradient)
     }
     
     //必須
