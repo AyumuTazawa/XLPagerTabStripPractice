@@ -8,12 +8,13 @@
 import UIKit
 import XLPagerTabStrip
 import AnimatedGradientView
+import RSLoadingView
 
 class SecondViewController: UIViewController, IndicatorInfoProvider {
     
     //ここがボタンのタイトルに利用されます
     var itemInfo: IndicatorInfo = "Scond"
-    
+    let loadingView = RSLoadingView(effectType: RSLoadingView.Effect.twins)
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,6 +23,8 @@ class SecondViewController: UIViewController, IndicatorInfoProvider {
         gradient.colorStrings = [["#3224AE", "#FF66FF"]]
         gradient.type = .conic
         view.addSubview(gradient)
+        loadingView.mainColor = .cyan
+        loadingView.showOnKeyWindow()
     }
     
     //必須
