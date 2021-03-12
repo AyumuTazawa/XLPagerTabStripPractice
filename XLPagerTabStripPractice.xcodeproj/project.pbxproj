@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36F8B4F9EF222B124BF318C4 /* Pods_XLPagerTabStripPractice_XLPagerTabStripPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D101EEE9DC84EE122CD1A79A /* Pods_XLPagerTabStripPractice_XLPagerTabStripPracticeUITests.framework */; };
 		6303EC7B25F23FFD0015D8F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6303EC7A25F23FFD0015D8F6 /* AppDelegate.swift */; };
 		6303EC7D25F23FFD0015D8F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6303EC7C25F23FFD0015D8F6 /* SceneDelegate.swift */; };
 		6303EC7F25F23FFD0015D8F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6303EC7E25F23FFD0015D8F6 /* ViewController.swift */; };
@@ -15,6 +16,12 @@
 		6303EC8725F240040015D8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6303EC8525F240040015D8F6 /* LaunchScreen.storyboard */; };
 		6303EC9225F240040015D8F6 /* XLPagerTabStripPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6303EC9125F240040015D8F6 /* XLPagerTabStripPracticeTests.swift */; };
 		6303EC9D25F240040015D8F6 /* XLPagerTabStripPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6303EC9C25F240040015D8F6 /* XLPagerTabStripPracticeUITests.swift */; };
+		6303ECAE25F240260015D8F6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6303ECAD25F240260015D8F6 /* FirstViewController.swift */; };
+		6303ECB325F240B20015D8F6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6303ECB225F240B20015D8F6 /* SecondViewController.swift */; };
+		6303ECB825F240C70015D8F6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6303ECB725F240C70015D8F6 /* ThirdViewController.swift */; };
+		638CE11125F7BAF2003DA78B /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 638CE11025F7BAF2003DA78B /* NVActivityIndicatorView */; };
+		8C66AF790A992A5A1608B61C /* Pods_XLPagerTabStripPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AAB507BBB239E2CFED1A20 /* Pods_XLPagerTabStripPracticeTests.framework */; };
+		F526205284D612C369412AC3 /* Pods_XLPagerTabStripPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99352DB5D89F1E9A2517316B /* Pods_XLPagerTabStripPractice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1644E809D5BFE9A8540C6E0B /* Pods-XLPagerTabStripPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripPractice.debug.xcconfig"; path = "Target Support Files/Pods-XLPagerTabStripPractice/Pods-XLPagerTabStripPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		28AAB507BBB239E2CFED1A20 /* Pods_XLPagerTabStripPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLPagerTabStripPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		622C85EF7C7E535FE77FE1B5 /* Pods-XLPagerTabStripPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripPracticeTests.release.xcconfig"; path = "Target Support Files/Pods-XLPagerTabStripPracticeTests/Pods-XLPagerTabStripPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
 		6303EC7725F23FFD0015D8F6 /* XLPagerTabStripPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLPagerTabStripPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6303EC7A25F23FFD0015D8F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6303EC7C25F23FFD0015D8F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,15 @@
 		6303EC9825F240040015D8F6 /* XLPagerTabStripPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStripPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6303EC9C25F240040015D8F6 /* XLPagerTabStripPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLPagerTabStripPracticeUITests.swift; sourceTree = "<group>"; };
 		6303EC9E25F240040015D8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6303ECAD25F240260015D8F6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		6303ECB225F240B20015D8F6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6303ECB725F240C70015D8F6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		78CE6BC1AB40A9FF458E8B5F /* Pods-XLPagerTabStripPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripPractice.release.xcconfig"; path = "Target Support Files/Pods-XLPagerTabStripPractice/Pods-XLPagerTabStripPractice.release.xcconfig"; sourceTree = "<group>"; };
+		7C776D66C3D16E7FC95ED61C /* Pods-XLPagerTabStripPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripPracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-XLPagerTabStripPracticeTests/Pods-XLPagerTabStripPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99352DB5D89F1E9A2517316B /* Pods_XLPagerTabStripPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLPagerTabStripPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1842ED61EE0CB1A80A2EC17 /* Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests.debug.xcconfig"; path = "Target Support Files/Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests/Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D101EEE9DC84EE122CD1A79A /* Pods_XLPagerTabStripPractice_XLPagerTabStripPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLPagerTabStripPractice_XLPagerTabStripPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E949685DD18CC52024CD561C /* Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests.release.xcconfig"; path = "Target Support Files/Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests/Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				638CE11125F7BAF2003DA78B /* NVActivityIndicatorView in Frameworks */,
+				F526205284D612C369412AC3 /* Pods_XLPagerTabStripPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C66AF790A992A5A1608B61C /* Pods_XLPagerTabStripPracticeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F8B4F9EF222B124BF318C4 /* Pods_XLPagerTabStripPractice_XLPagerTabStripPracticeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ADF6D4B15DB34563AD3F965 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1644E809D5BFE9A8540C6E0B /* Pods-XLPagerTabStripPractice.debug.xcconfig */,
+				78CE6BC1AB40A9FF458E8B5F /* Pods-XLPagerTabStripPractice.release.xcconfig */,
+				A1842ED61EE0CB1A80A2EC17 /* Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests.debug.xcconfig */,
+				E949685DD18CC52024CD561C /* Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests.release.xcconfig */,
+				7C776D66C3D16E7FC95ED61C /* Pods-XLPagerTabStripPracticeTests.debug.xcconfig */,
+				622C85EF7C7E535FE77FE1B5 /* Pods-XLPagerTabStripPracticeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6303EC6E25F23FFD0015D8F6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +119,8 @@
 				6303EC9025F240040015D8F6 /* XLPagerTabStripPracticeTests */,
 				6303EC9B25F240040015D8F6 /* XLPagerTabStripPracticeUITests */,
 				6303EC7825F23FFD0015D8F6 /* Products */,
+				4ADF6D4B15DB34563AD3F965 /* Pods */,
+				CE4BF0F0B3245CA0C0AED486 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +140,9 @@
 				6303EC7A25F23FFD0015D8F6 /* AppDelegate.swift */,
 				6303EC7C25F23FFD0015D8F6 /* SceneDelegate.swift */,
 				6303EC7E25F23FFD0015D8F6 /* ViewController.swift */,
+				6303ECAD25F240260015D8F6 /* FirstViewController.swift */,
+				6303ECB225F240B20015D8F6 /* SecondViewController.swift */,
+				6303ECB725F240C70015D8F6 /* ThirdViewController.swift */,
 				6303EC8025F23FFD0015D8F6 /* Main.storyboard */,
 				6303EC8325F240040015D8F6 /* Assets.xcassets */,
 				6303EC8525F240040015D8F6 /* LaunchScreen.storyboard */,
@@ -128,6 +169,16 @@
 			path = XLPagerTabStripPracticeUITests;
 			sourceTree = "<group>";
 		};
+		CE4BF0F0B3245CA0C0AED486 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99352DB5D89F1E9A2517316B /* Pods_XLPagerTabStripPractice.framework */,
+				D101EEE9DC84EE122CD1A79A /* Pods_XLPagerTabStripPractice_XLPagerTabStripPracticeUITests.framework */,
+				28AAB507BBB239E2CFED1A20 /* Pods_XLPagerTabStripPracticeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,15 +186,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6303ECA125F240040015D8F6 /* Build configuration list for PBXNativeTarget "XLPagerTabStripPractice" */;
 			buildPhases = (
+				7470E2B922B2CDF19AE74214 /* [CP] Check Pods Manifest.lock */,
 				6303EC7325F23FFD0015D8F6 /* Sources */,
 				6303EC7425F23FFD0015D8F6 /* Frameworks */,
 				6303EC7525F23FFD0015D8F6 /* Resources */,
+				9174B4642357936D87D3D49F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = XLPagerTabStripPractice;
+			packageProductDependencies = (
+				638CE11025F7BAF2003DA78B /* NVActivityIndicatorView */,
+			);
 			productName = XLPagerTabStripPractice;
 			productReference = 6303EC7725F23FFD0015D8F6 /* XLPagerTabStripPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6303ECA425F240040015D8F6 /* Build configuration list for PBXNativeTarget "XLPagerTabStripPracticeTests" */;
 			buildPhases = (
+				ADEFF9EAD550689521684204 /* [CP] Check Pods Manifest.lock */,
 				6303EC8925F240040015D8F6 /* Sources */,
 				6303EC8A25F240040015D8F6 /* Frameworks */,
 				6303EC8B25F240040015D8F6 /* Resources */,
@@ -170,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6303ECA725F240040015D8F6 /* Build configuration list for PBXNativeTarget "XLPagerTabStripPracticeUITests" */;
 			buildPhases = (
+				3FD0AB61CCE9A86B74205663 /* [CP] Check Pods Manifest.lock */,
 				6303EC9425F240040015D8F6 /* Sources */,
 				6303EC9525F240040015D8F6 /* Frameworks */,
 				6303EC9625F240040015D8F6 /* Resources */,
+				574E3F49EE92B589EAFCBF8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +274,9 @@
 				Base,
 			);
 			mainGroup = 6303EC6E25F23FFD0015D8F6;
+			packageReferences = (
+				638CE10F25F7BAF2003DA78B /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+			);
 			productRefGroup = 6303EC7825F23FFD0015D8F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,6 +315,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FD0AB61CCE9A86B74205663 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		574E3F49EE92B589EAFCBF8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests/Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests/Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests/Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7470E2B922B2CDF19AE74214 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLPagerTabStripPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9174B4642357936D87D3D49F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XLPagerTabStripPractice/Pods-XLPagerTabStripPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XLPagerTabStripPractice/Pods-XLPagerTabStripPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XLPagerTabStripPractice/Pods-XLPagerTabStripPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADEFF9EAD550689521684204 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLPagerTabStripPracticeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6303EC7325F23FFD0015D8F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +426,9 @@
 				6303EC7F25F23FFD0015D8F6 /* ViewController.swift in Sources */,
 				6303EC7B25F23FFD0015D8F6 /* AppDelegate.swift in Sources */,
 				6303EC7D25F23FFD0015D8F6 /* SceneDelegate.swift in Sources */,
+				6303ECB325F240B20015D8F6 /* SecondViewController.swift in Sources */,
+				6303ECB825F240C70015D8F6 /* ThirdViewController.swift in Sources */,
+				6303ECAE25F240260015D8F6 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +601,7 @@
 		};
 		6303ECA225F240040015D8F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1644E809D5BFE9A8540C6E0B /* Pods-XLPagerTabStripPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +621,7 @@
 		};
 		6303ECA325F240040015D8F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78CE6BC1AB40A9FF458E8B5F /* Pods-XLPagerTabStripPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +641,7 @@
 		};
 		6303ECA525F240040015D8F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C776D66C3D16E7FC95ED61C /* Pods-XLPagerTabStripPracticeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +664,7 @@
 		};
 		6303ECA625F240040015D8F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 622C85EF7C7E535FE77FE1B5 /* Pods-XLPagerTabStripPracticeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +687,7 @@
 		};
 		6303ECA825F240040015D8F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1842ED61EE0CB1A80A2EC17 /* Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +708,7 @@
 		};
 		6303ECA925F240040015D8F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E949685DD18CC52024CD561C /* Pods-XLPagerTabStripPractice-XLPagerTabStripPracticeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -593,6 +767,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		638CE10F25F7BAF2003DA78B /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		638CE11025F7BAF2003DA78B /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 638CE10F25F7BAF2003DA78B /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6303EC6F25F23FFD0015D8F6 /* Project object */;
 }
