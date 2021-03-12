@@ -19,10 +19,17 @@
                         <viewLayoutGuide key="safeArea" id="hOr-9J-2RI"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="MN9-Od-Ogy">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="house" catalog="system" id="HYe-ML-Q3l">
+                            <connections>
+                                <action selector="didTapenubutton:" destination="nXe-5b-0b1" id="lTG-QC-ege"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Slu-V0-kPa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-862" y="757"/>
+            <point key="canvasLocation" x="957.97101449275374" y="756.69642857142856"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="i0Y-l0-fbe">
@@ -37,7 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7wK-Jl-NWz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19" y="757"/>
+            <point key="canvasLocation" x="1839.1304347826087" y="756.69642857142856"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="C19-ht-Uv0">
@@ -53,9 +60,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MTY-Ef-qsn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="906" y="759"/>
+            <point key="canvasLocation" x="2726.0869565217395" y="758.70535714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--ホーム-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="XLPagerTabStripPractice" customModuleProvider="target" sceneMemberID="viewController">
@@ -64,7 +71,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lCh-OC-1R8">
-                                <rect key="frame" x="0.0" y="121" width="414" height="775"/>
+                                <rect key="frame" x="0.0" y="119" width="414" height="777"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="K8I-gD-bUB"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="OW2-gQ-MdH"/>
@@ -94,17 +101,22 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="ホーム" id="n5Q-ja-UvY">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="line.horizontal.3" catalog="system" id="8au-Uu-qr3"/>
+                    </navigationItem>
                     <connections>
-                        <outlet property="buttonBarView" destination="InR-ag-NSX" id="PbP-PP-6v3"/>
-                        <outlet property="containerView" destination="lCh-OC-1R8" id="kgW-f2-Qh4"/>
+                        <outlet property="buttonBarView" destination="InR-ag-NSX" id="qb5-Pa-VIM"/>
+                        <outlet property="containerView" destination="lCh-OC-1R8" id="0K6-r9-0YU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
+            <point key="canvasLocation" x="1839.1304347826087" y="93.75"/>
         </scene>
     </scenes>
     <resources>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
