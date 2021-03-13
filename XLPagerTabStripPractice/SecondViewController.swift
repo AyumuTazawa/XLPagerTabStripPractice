@@ -10,6 +10,7 @@ import XLPagerTabStrip
 import AnimatedGradientView
 import RSLoadingView
 import AMPopTip
+import DTGradientButton
 
 class SecondViewController: UIViewController, IndicatorInfoProvider {
     
@@ -27,6 +28,8 @@ class SecondViewController: UIViewController, IndicatorInfoProvider {
 //        view.addSubview(gradient)
 //        loadingView.mainColor = .cyan
 //        loadingView.showOnKeyWindow()
+        let colors = [UIColor.systemOrange, UIColor.systemPink]
+        self.tapButton.setGradientBackgroundColors(colors, direction: .toRight, for: .normal)
     }
     
     //必須
