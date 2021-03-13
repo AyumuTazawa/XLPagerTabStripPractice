@@ -9,22 +9,24 @@ import UIKit
 import XLPagerTabStrip
 import AnimatedGradientView
 import RSLoadingView
+import AMPopTip
 
 class SecondViewController: UIViewController, IndicatorInfoProvider {
     
+    @IBOutlet weak var tapButton: UIButton!
     //ここがボタンのタイトルに利用されます
     var itemInfo: IndicatorInfo = "Scond"
     let loadingView = RSLoadingView(effectType: RSLoadingView.Effect.twins)
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let gradient = AnimatedGradientView(frame: view.bounds)
-        gradient.autoAnimate = false
-        gradient.colorStrings = [["#3224AE", "#FF66FF"]]
-        gradient.type = .conic
-        view.addSubview(gradient)
-        loadingView.mainColor = .cyan
-        loadingView.showOnKeyWindow()
+//        let gradient = AnimatedGradientView(frame: view.bounds)
+//        gradient.autoAnimate = false
+//        gradient.colorStrings = [["#3224AE", "#FF66FF"]]
+//        gradient.type = .conic
+//        view.addSubview(gradient)
+//        loadingView.mainColor = .cyan
+//        loadingView.showOnKeyWindow()
     }
     
     //必須
@@ -32,5 +34,13 @@ class SecondViewController: UIViewController, IndicatorInfoProvider {
         return itemInfo
     }
     
+    @IBAction func tapButton(_ sender: Any) {
+        let popTip = PopTip()
+        popTip.actionAnimation = .bounce(16)
+        popTip.bubbleColor = .cyan
+        popTip.textColor = .gray
+        popTip.show(text: "Hello", direction: .up, maxWidth: 200, in: view, from: self.tapButton.frame)
+        let customView = UIView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+    }
 }
 
