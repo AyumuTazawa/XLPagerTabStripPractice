@@ -9,6 +9,8 @@ import UIKit
 import XLPagerTabStrip
 import AnimatedGradientView
 import SideMenu
+import AMPopTip
+import GranibleLabel
 
 class FirstViewController: UIViewController, IndicatorInfoProvider {
     
@@ -18,7 +20,7 @@ class FirstViewController: UIViewController, IndicatorInfoProvider {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //グラデーション
         let gradient = AnimatedGradientView(frame: view.bounds)
         gradient.autoAnimate = false
         gradient.colorStrings = [["#3224AE", "#FF66FF"]]
@@ -31,12 +33,28 @@ class FirstViewController: UIViewController, IndicatorInfoProvider {
         SideMenuManager.default.leftMenuNavigationController = sideMenu
         SideMenuManager.default.addPanGestureToPresent(toView: view)
         
+        //GranibleLabel
+        setGranibleLabel()
     }
     
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
         return itemInfo
     }
     
+    //GranibleLabel
+    func setGranibleLabel() {
+        let label = GranibleLabel()
+        label.colors = [UIColor.red, UIColor.orange]
+        label.direction = .rightTopDiagonal
+        label.text = "FirstPageLabel"
+        label.textAlignment = .center
+        label.font = .boldSystemFont(ofSize: 10)
+        label.numberOfLines = 2
+        label.animate = true
+        label.frame = CGRect(x: 0, y: 20, width: UIScreen.main.bounds.size.width, height: 44)
+        label.font = UIFont(name: "HiraKakuProN-W6", size: 30)
+        self.view.addSubview(label)
+    }
 }
 
 class MenuListContoroller: UITableViewController {
