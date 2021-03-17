@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  XLPagerTabStripPractice
 //
-//  Created by 田澤歩 on 2021/03/05.
+//  Created by 田澤歩 on 2021/03/16.
 //
 
 import UIKit
@@ -23,7 +23,8 @@ class ViewController: ButtonBarPagerTabStripViewController {
         let firstVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "First")
         let secondVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Second")
         let thirdVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Third")
-        let childViewControllers:[UIViewController] = [firstVC, secondVC, thirdVC]
+        let FourthVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Fourth")
+        let childViewControllers:[UIViewController] = [firstVC, secondVC, thirdVC, FourthVC]
         return childViewControllers
     }
     
