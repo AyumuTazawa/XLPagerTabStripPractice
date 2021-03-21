@@ -15,6 +15,7 @@ import DTGradientButton
 class SecondViewController: UIViewController, IndicatorInfoProvider {
     
     @IBOutlet weak var tapButton: UIButton!
+    @IBOutlet weak var secondButton: UIButton!
     //ここがボタンのタイトルに利用されます
     var itemInfo: IndicatorInfo = "Scond"
     let loadingView = RSLoadingView(effectType: RSLoadingView.Effect.twins)
@@ -30,6 +31,10 @@ class SecondViewController: UIViewController, IndicatorInfoProvider {
 //        loadingView.showOnKeyWindow()
         let colors = [UIColor.systemOrange, UIColor.systemPink]
         self.tapButton.setGradientBackgroundColors(colors, direction: .toRight, for: .normal)
+        self.secondButton.layer.cornerRadius = 10.0
+        self.secondButton.setGradientBackgroundColors(colors, direction: .toRight, for: .normal)
+        
+        
     }
     
     //必須
