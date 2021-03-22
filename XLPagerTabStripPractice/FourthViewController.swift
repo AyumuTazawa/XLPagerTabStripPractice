@@ -8,6 +8,7 @@
 import UIKit
 import XLPagerTabStrip
 import Pastel
+import SPAlert
 
 class FourthViewController: UIViewController, IndicatorInfoProvider {
     
@@ -36,6 +37,9 @@ class FourthViewController: UIViewController, IndicatorInfoProvider {
         
         pastelView.startAnimation()
         view.insertSubview(pastelView, at: 0)
+        
+        let alertView = SPAlertView(title: "Complete", preset: .done)
+        alertView.present(duration: 3)
     }
     
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
