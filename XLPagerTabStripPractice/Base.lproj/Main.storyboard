@@ -45,12 +45,20 @@
                                     <action selector="tapButton:" destination="oEd-jF-FfZ" eventType="touchUpInside" id="M3C-hJ-j7i"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcX-MV-DDT">
+                                <rect key="frame" x="120" y="505" width="175" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="second">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="180-Qk-z7C"/>
                         <color key="backgroundColor" systemColor="linkColor"/>
                     </view>
                     <connections>
-                        <outlet property="tapButton" destination="GdA-tp-fjv" id="RYK-fF-Mmc"/>
+                        <outlet property="secondButton" destination="fcX-MV-DDT" id="iok-Bg-jdM"/>
+                        <outlet property="tapButton" destination="GdA-tp-fjv" id="odH-Qn-6k8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7wK-Jl-NWz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
