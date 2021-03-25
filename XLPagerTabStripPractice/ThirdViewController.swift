@@ -37,7 +37,7 @@ class ThirdViewController: UIViewController, IndicatorInfoProvider {
     }
     
     func setupHud() {
-        activityIndicatorView = NVActivityIndicatorView(frame: CGRect(x: 0, y: 0, width: 60, height: 60), type: NVActivityIndicatorType.ballBeat, color: UIColor.orange, padding: 0)
+        activityIndicatorView = NVActivityIndicatorView(frame: CGRect(x: 0, y: 0, width: 60, height: 60), type: NVActivityIndicatorType.ballBeat, color: UIColor.clear, padding: 0)
         activityIndicatorView.center = self.view.center
         view.addSubview(activityIndicatorView)
     }
