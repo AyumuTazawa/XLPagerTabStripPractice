@@ -52,11 +52,20 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyV-5Y-SeF">
+                                <rect key="frame" x="120" y="579" width="175" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Third">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="180-Qk-z7C"/>
                         <color key="backgroundColor" systemColor="linkColor"/>
                     </view>
                     <connections>
+                        <outlet property="ThirdButton" destination="jyV-5Y-SeF" id="elb-so-H5s"/>
                         <outlet property="secondButton" destination="fcX-MV-DDT" id="iok-Bg-jdM"/>
                         <outlet property="tapButton" destination="GdA-tp-fjv" id="odH-Qn-6k8"/>
                     </connections>
