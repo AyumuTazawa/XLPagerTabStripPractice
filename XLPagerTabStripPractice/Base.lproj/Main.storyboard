@@ -105,6 +105,21 @@
             </objects>
             <point key="canvasLocation" x="3447.826086956522" y="756.69642857142856"/>
         </scene>
+        <!--Fifth View Controller-->
+        <scene sceneID="y5w-8A-S52">
+            <objects>
+                <viewController storyboardIdentifier="Fifth" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AG3-kf-tyx" customClass="FifthViewController" customModule="XLPagerTabStripPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="21N-og-ACW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="QaP-TW-BSY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ixX-hY-OGr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4420" y="754"/>
+        </scene>
         <!--ホーム-->
         <scene sceneID="tne-QT-ifu">
             <objects>
