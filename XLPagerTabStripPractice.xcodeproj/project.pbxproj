@@ -21,6 +21,7 @@
 		6363A6072600481C003AA2B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6363A6062600481C003AA2B0 /* ViewController.swift */; };
 		6363A60C2600483C003AA2B0 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6363A60B2600483C003AA2B0 /* FourthViewController.swift */; };
 		638CE11125F7BAF2003DA78B /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 638CE11025F7BAF2003DA78B /* NVActivityIndicatorView */; };
+		63BB7B172613661B00702EB9 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB7B162613661B00702EB9 /* FifthViewController.swift */; };
 		8C66AF790A992A5A1608B61C /* Pods_XLPagerTabStripPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AAB507BBB239E2CFED1A20 /* Pods_XLPagerTabStripPracticeTests.framework */; };
 		F526205284D612C369412AC3 /* Pods_XLPagerTabStripPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99352DB5D89F1E9A2517316B /* Pods_XLPagerTabStripPractice.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,7 @@
 		6303ECB725F240C70015D8F6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		6363A6062600481C003AA2B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6363A60B2600483C003AA2B0 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		63BB7B162613661B00702EB9 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		78CE6BC1AB40A9FF458E8B5F /* Pods-XLPagerTabStripPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripPractice.release.xcconfig"; path = "Target Support Files/Pods-XLPagerTabStripPractice/Pods-XLPagerTabStripPractice.release.xcconfig"; sourceTree = "<group>"; };
 		7C776D66C3D16E7FC95ED61C /* Pods-XLPagerTabStripPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripPracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-XLPagerTabStripPracticeTests/Pods-XLPagerTabStripPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		99352DB5D89F1E9A2517316B /* Pods_XLPagerTabStripPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLPagerTabStripPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +148,7 @@
 				6303ECB225F240B20015D8F6 /* SecondViewController.swift */,
 				6303ECB725F240C70015D8F6 /* ThirdViewController.swift */,
 				6363A60B2600483C003AA2B0 /* FourthViewController.swift */,
+				63BB7B162613661B00702EB9 /* FifthViewController.swift */,
 				6303EC8025F23FFD0015D8F6 /* Main.storyboard */,
 				6303EC8325F240040015D8F6 /* Assets.xcassets */,
 				6303EC8525F240040015D8F6 /* LaunchScreen.storyboard */,
@@ -430,6 +433,7 @@
 				6303EC7B25F23FFD0015D8F6 /* AppDelegate.swift in Sources */,
 				6303EC7D25F23FFD0015D8F6 /* SceneDelegate.swift in Sources */,
 				6363A60C2600483C003AA2B0 /* FourthViewController.swift in Sources */,
+				63BB7B172613661B00702EB9 /* FifthViewController.swift in Sources */,
 				6303ECB325F240B20015D8F6 /* SecondViewController.swift in Sources */,
 				6303ECB825F240C70015D8F6 /* ThirdViewController.swift in Sources */,
 				6303ECAE25F240260015D8F6 /* FirstViewController.swift in Sources */,
